@@ -147,6 +147,20 @@ footer p {
 	.contact p {
 		margin-top: 20px;
 	}
+
+	.tarjetas {
+		flex-direction: column;
+	}
+
+	.textIzq {
+		width: 100%;
+	}
+
+	.textDer {
+		width: 100%;
+		margin-top: 50px;
+	}
+
 }
 
 @media screen and (max-width: 954px) {
