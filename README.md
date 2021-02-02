@@ -1,2 +1,2 @@
 # guia-medica
-prueba
+probando
