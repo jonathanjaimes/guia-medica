@@ -1,0 +1,162 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/*----------------CABEZOTE------------------------------*/
+.top {
+	width: 100%;
+	padding: 20px 10% 20px 10%;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact h3 {
+	background-color: #224271;
+	padding: 7px;
+	border-radius: 5px;
+	color: white;
+	font-weight: lighter;
+}
+
+.contact p {
+	margin-left: 20px;
+}
+
+
+/*-------------------------POST CABEZOTE---------------------------*/
+
+
+.especialidades {
+	width: 100%;
+	padding: 40px 10% 40px 10%;
+	background-color: #224271;
+	margin-bottom: 40px;
+}
+
+.especialidades h2 {
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+
+.postEsp {
+	width: 100%;
+	padding: 10px 20% 50px 20%;
+}
+
+.postEsp p {
+	text-align: center;
+	line-height: 1.5;
+}
+
+/*-----------------GALERIA ESPECIALIDADES------------------------*/
+
+.contenedor {
+	width: 80%;
+	margin: auto;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+}
+
+.tarjetas {
+	width: 1000px;
+	
+	/*background-color: red;*/
+	margin: 20px;
+	padding: 20px;
+	
+	box-shadow: 1px 1px 18px #e8e8e8;
+	display: flex;
+	justify-content: space-around;
+}
+
+.textIzq {
+	
+	/*background-color: red;*/
+	margin-right: 50px;
+}
+
+.textIzq h2 {
+	margin-bottom: 20px;
+}
+
+.textIzq p {
+	margin-top: 10px;
+}
+
+.textDer {
+	width: 400px;
+}
+
+.textDer p {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+/*-----------------FOOTER------------------------*/
+
+footer {
+	width: 100%;
+	padding: 20px 10% 20px 10%;
+	background-color: #224271;
+	margin-top: 20px;
+}
+
+footer h3 {
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+
+
+/*-----------------MEDIA------------------------*/
+
+
+
+@media screen and (max-width: 866px) {
+	.top {
+		flex-direction: column;
+		/*align-items: flex-start;*/
+	}
+
+	.contact {
+		margin-top: 20px;
+		flex-direction: column;
+	}
+
+	.contact p {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 954px) {
+	.postEsp {
+		padding: 10px 5% 50px 5%;
+	}
+}
+
+@media screen and (max-width: 553px) {
+	.contenedor {
+		width: 100%;
+	}
+}
