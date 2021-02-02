@@ -6,6 +6,38 @@
 }
 
 
+.especialidades {
+	width: 100%;
+	padding: 40px 10% 40px 10%;
+	background-color: red;
+	margin-bottom: 40px;
+}
+
+.especialidades h2 {
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+
+.postEsp {
+	width: 100%;
+	padding: 10px 20% 50px 20%;
+}
+
+.postEsp p {
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
 /*-----------------GALERIA ESPECIALIDADES------------------------*/
 
 .contenedor {
@@ -35,6 +67,7 @@
 
 .contTarText h2 {
 	text-align: center;
+	font-weight: lighter;
 }
 
 .contTarText p {
@@ -44,10 +77,37 @@
 
 .contTarText a {
 	text-decoration: none;
+	color: black;
+}
+
+/*-----------------FOOTER------------------------*/
+
+footer {
+	width: 100%;
+	padding: 20px 10% 20px 10%;
+	background-color: #224271;
+	margin-top: 20px;
+}
+
+footer h3 {
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	margin-top: 10px;
 }
 
 
 /*-----------------MEDIA------------------------*/
+
+@media screen and (max-width: 954px) {
+	.postEsp {
+		padding: 10px 5% 50px 5%;
+	}
+}
 
 @media screen and (max-width: 553px) {
 	.contenedor {
