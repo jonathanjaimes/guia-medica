@@ -97,6 +97,7 @@
 
 .textIzq p {
 	margin-top: 10px;
+	overflow-wrap: anywhere;
 }
 
 .textDer {
@@ -130,6 +131,9 @@ footer p {
 
 
 /*-----------------MEDIA------------------------*/
+
+
+
 
 
 
