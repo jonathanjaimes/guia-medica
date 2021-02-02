@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+/*-----------------GALERIA ESPECIALIDADES------------------------*/
+
+.contenedor {
+	width: 80%;
+	margin: auto;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+
+}
+
+.tarjetas {
+	width: 400px;
+	height: 200px;
+	/*background-color: red;*/
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 1px 1px 18px #e8e8e8;
+}
+
+
+
+.contTarText h2 {
+	text-align: center;
+}
+
+.contTarText p {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.contTarText a {
+	text-decoration: none;
+}
+
+
+/*-----------------MEDIA------------------------*/
+
+@media screen and (max-width: 553px) {
+	.contenedor {
+		width: 100%;
+	}
+}
